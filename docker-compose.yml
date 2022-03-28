@@ -3,7 +3,7 @@ services:
   jenkins:
     image: jenkins/jenkins:lts
     privileged: true
-    user: 1000
+    user: '1000'
     ports:
       - 8085:8080
       - 50000:50000
